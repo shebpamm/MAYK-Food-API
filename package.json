@@ -1,0 +1,27 @@
+{
+  "name": "mayk-food-api",
+  "version": "0.1.0",
+  "description": "Server that fetches foodinfo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shebpamm/MAYK-Food-API.git"
+  },
+  "keywords": [
+    "MAYK"
+  ],
+  "author": "shebpamm",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shebpamm/MAYK-Food-API/issues"
+  },
+  "homepage": "https://github.com/shebpamm/MAYK-Food-API#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  }
+}
