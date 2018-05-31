@@ -58,6 +58,6 @@ setInterval(function () {
 }, 1 * 60 * 60 * 1000);
 
 app.get('/api/food/', (req, res) => res.send(foodList))
-app.get('/api/food/today', (req, res) => res.send('AYAA'))
+app.get('/api/food/today', (req, res) => res.send({meatfood: foodList.meatfood[foodList.meatfood.length - 1], vegefood: foodList.vegefood[foodList.vegefood.length - 1]}))
 
 app.listen(8585, () => console.log('SHIT GOING ON ON 8585 OH SHIT'))
