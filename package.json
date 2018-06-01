@@ -4,7 +4,8 @@
   "description": "Server that fetches foodinfo",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "xo"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "xo": "^0.21.1"
   }
 }
